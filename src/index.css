@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.div-titulo-container{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.div-form-login-contaier-padre{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-form-login-contaier{
+  height: 100%;
+  width: 100%;
+}
+
+.div-buttom{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.p-label-form-login {
+  font-size: 15px;
+  color: #5C5C5C;
+  font-weight: 500;
+  margin-top: 0rem;
+}
+
+.p-aling-right{
+  text-align: end;
+  margin: 0;
+}
+
+.p-aling-center{
+  text-align: center;
+}
+
+.div-item-menu {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 0px 4px 12px;
+  margin: 2px 0px 0px 0px;
+  height: 100%;
+}
+
+.icon-menu-lateral {
+  margin: 0px 12px 0px 8px;
+}
+
+.div-tarea-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-label-form {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.p-label-form-text {
+  font-size: 15px;
+  color: #5C5C5C;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.custom-btn{
+  color: black;
+  margin: 0;
+}
+
+.custom-btn:hover{
+  color: orange;
+}
+
